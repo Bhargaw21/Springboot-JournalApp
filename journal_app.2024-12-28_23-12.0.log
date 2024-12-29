@@ -1,0 +1,6 @@
+23:12:59.486 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.myprojects.journal_app.service.EmailServiceTests]: EmailServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:12:59.539 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.myprojects.journal_app.JournalApplication for test class com.myprojects.journal_app.service.EmailServiceTests
+23:12:59.700 [main] INFO  c.m.j.service.EmailServiceTests - Starting EmailServiceTests using Java 21.0.4 with PID 80326 (started by bhargaw in /Users/bhargaw/Desktop/journal-app)
+23:12:59.700 [main] INFO  c.m.j.service.EmailServiceTests - The following 1 profile is active: "dev"
+23:12:59.935 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+23:12:59.954 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 3 MongoDB repository interfaces.

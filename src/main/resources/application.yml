@@ -1,0 +1,32 @@
+spring:
+  profiles:
+    active: dev
+
+#logging:
+  #level:
+   # '[com.myprojects.journal_app]': DEBUG
+
+#logging:
+    #level:
+        #root: error
+    
+
+weather:
+  api:
+    key: apikey # Replace with your OpenWeatherMap API key   
+
+
+  mail:
+    host: smtp.gmail.com # Replace with your mail server host
+    port: 587 # Port for TLS; use 465 for SSL
+    username: your-email@gmail.com # Replace with your email
+    password: your-email-password # Replace with your email's password or app-specific password
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            trust: smtp.gmail.com # Configure SSL trust if required
